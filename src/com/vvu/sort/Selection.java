@@ -1,6 +1,5 @@
 package com.vvu.sort;
 
-
 // 选择排序
 public class Selection<T extends Comparable<T>> extends Sort<T> {
 	

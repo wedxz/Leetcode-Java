@@ -9,10 +9,17 @@ public class Main {
 //		Integer[] array = {7, 3, 5, 8, 6, 7, 4, 5};
 		Integer[] array = Integers.tailAscOrder(1, 10000, 2000);
 		testSorts(array, 
-				new Insertion(),
-				new Bubble(),
+				new Bubble1(),
+				new Bubble2(),
+				new Bubble3(),
+				new Insertion1(),
+				new Insertion2(),
+				new Insertion3(),
 				new Selection(),
-				new Heap()
+				new Heap(),
+				new Merge(),
+				new Shell(),
+				new Quick()
 				);
 	}
 
