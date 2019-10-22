@@ -9,6 +9,8 @@ public class Main {
 //		Integer[] array = {7, 3, 5, 8, 6, 7, 4, 5};
 		Integer[] array = Integers.tailAscOrder(1, 10000, 2000);
 		testSorts(array, 
+				new Radix(),
+				new Counting(),
 				new Bubble1(),
 				new Bubble2(),
 				new Bubble3(),
