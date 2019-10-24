@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.Stack;
 
 //https://leetcode.com/problems/valid-parentheses/
-public class _20_有效的括号 {
+public class _020_有效的括号 {
 	private static HashMap<Character, Character> map = new HashMap<>();
 	static {
 		// key - value
