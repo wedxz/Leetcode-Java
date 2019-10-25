@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Stack;
 
 // https://leetcode.com/problems/binary-tree-inorder-traversal/
-public class _94_二叉树的中序遍历 {
+public class _094_二叉树的中序遍历 {
 	// 1
     public List<Integer> preorderTraversal(TreeNode root) {
 		List<Integer> list = new ArrayList<Integer>();

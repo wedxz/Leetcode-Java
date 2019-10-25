@@ -6,13 +6,14 @@ import java.util.Stack;
 
 // https://leetcode-cn.com/problems/binary-tree-postorder-traversal/
 public class _145_二叉树的后序遍历 {
-	// 1
+
     public List<Integer> preorderTraversal(TreeNode root) {
 		List<Integer> list = new ArrayList<Integer>();
     	preorderTreeNode(root,list);
         return list;
     }
     
+	// 递归的方式
     public void preorderTreeNode(TreeNode root, List<Integer> list) {
 		if (root == null) {
 			return;
@@ -22,7 +23,7 @@ public class _145_二叉树的后序遍历 {
 		list.add(root.val);
 	}
     
-    // 2
+    // 迭代的方式
     public List<Integer> preorderTraversal2(TreeNode root) {
     	List<Integer> list = new ArrayList<Integer>();
     	Stack<TreeNode> stack = new Stack<TreeNode>();

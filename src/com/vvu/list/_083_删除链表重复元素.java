@@ -3,7 +3,7 @@ import java.util.HashMap;
 import com.vvu.list.ListNode;
 
 //https://leetcode.com/problems/remove-duplicates-from-sorted-list/
-public class _83_删除链表重复元素 {
+public class _083_删除链表重复元素 {
 	public ListNode deleteDuplicates(ListNode head) {
 	    if (head == null) {
 			return null;

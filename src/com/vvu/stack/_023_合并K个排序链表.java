@@ -5,6 +5,7 @@ import java.util.PriorityQueue;
 import java.util.ArrayList;
 import com.vvu.list.ListNode;
 
+// https://leetcode.com/problems/merge-k-sorted-lists/
 public class _023_合并K个排序链表 {
 	
 	// 使用分治策略 O(nlogk)
