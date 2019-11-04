@@ -3,6 +3,8 @@ package com.vvu;
 import com.vvu.list.CircleLinkedList;
 import com.vvu.list.Asserts;
 import com.vvu.list.List;
+import com.vvu.offer._005_替换空格;
+import com.vvu.offer._017_打印从1到最大的n位数;
 
 public class Main {
 	
@@ -47,8 +49,9 @@ public class Main {
 	}
 
 	public static void main(String[] args) {
-		josephus();
-		
+		_017_打印从1到最大的n位数 test = new _017_打印从1到最大的n位数();
+		test.print1ToMaxOfNDigits(2);
+//		josephus();
 //		testList(new ArrayList<>());
 //		testList(new LinkedList<>());
 		

@@ -1,7 +1,5 @@
 package com.vvu.tree;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
 // https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
