@@ -187,4 +187,5 @@ public class _0347_前K个高频元素 {
 		int[] nums = {1,1,1,2,2,3};
 		new _0347_前K个高频元素().topKFrequent5(nums, 2);
 	}
+    
 }
